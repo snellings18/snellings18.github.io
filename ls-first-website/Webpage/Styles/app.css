@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+
+
+h3 {
+    text-align: center;
+    font-family: 'Bitter', serif;
+    color: black;
+    line-height: 2.5em;
+    font-weight: 900;
+}
+
+h2 {
+    text-align: center;
+}
+
+body {
+    line-height: 2.5em;
+    font-family: 'Bitter', serif;
+    font-weight: 900;
+    background-color: black !important;
+}
+
+
+.body {
+    font-family: 'Bitter', serif;
+    line-height: 2.5em;
+    -webkit-text-fill-color: red; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: .25px;
+    -webkit-text-stroke-color: white;
+    max-width: 600px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.content {
+    line-height: 2.5em;
+    font-family: 'Bitter', serif;
+    font-weight: 900;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: red;
+    max-width: 600px;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+ul {
+    border-bottom-style: ridge;
+    border-color: white;
+    list-style-type: none;
+    color: black;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: #464646;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    border-right-style: ridge;
+    border-right-color: white;
+    background-color: red;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 14px 16px;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+li a:hover {
+    background-color: black !important;
+    color: white !important;
+}
+
+.active {
+    background-color: white;
+}
+
+#cta {
+    max-width: 350px;
+    margin: auto;
+}
+
+button:hover {
+    background-color: black;
+}
+
+.email {
+    padding-bottom: 50px;
+    width: 35em;
+    margin: auto;
+}
+
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-block: 3px;
+}
+
+.disclaimer {
+    color: white;
+    max-width: 600px;
+    margin: auto;
+    line-height: 2.0em;
+    text-align: center;
+}
+
+
